@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>March for Our Freedom</title>
+
+<!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&display=swap" rel="stylesheet">
+
+<!-- styles -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- custom styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
+<!-- scripts -->
+  <!-- JQuery & Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.js"></script>
+
+</head>
+
+<body>
+    <div id="logo" class="text-center">
+        <a href="https://www.alligator.org/"><img id="alligator" src="images/alligator.png" alt="logo"></a>
+    </div>
+
+    <div id="parallax1" class="parallaxParent">
+      <div style="background-image: url(images/header.PNG);"></div>
+    </div>
+
+    <div>
+      <h1 id="pageName" class="text-center py-3">March for Our Freedom</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!-- <div class="container text-nowrap"> -->
+        <!-- <a class="navbar-brand" href="#">Nav</a> -->
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarToggler" 
+                aria-controls="navbarToggler" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav text-nowrap mt-2 mx-auto"> <!-- mx-auto centers navbar -->
+                <li class="nav-item px-3">
+                    <a id="Voices" class="nav-link" href="#Voices">Voices of The Movement</a>
+                </li>
+                <li class="nav-item dropdown px-3">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Stories of The Movement
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a id="March" class="dropdown-item" href="#March">The March in Gainesville</a>
+                    <a id="Demonstrations" class="dropdown-item" href="#Demonstrations">Demonstrations Continue</a>
+                    <a id="React" class="dropdown-item" href="#React">UF Reacts</a>
+                    <a id="Vigil" class="dropdown-item" href="#Vigil">Vigil for Those Lost</a>
+                    <a id="Shands" class="dropdown-item" href="#Shands">#WhiteCoatsForBlackLives</a>
+                    <a id="Mural" class="dropdown-item" href="#Mural">Murals in Honor</a>
+                    <a id="Academia" class="dropdown-item" href="#Academia">#ShutDownAcademia</a>
+                    <a id="Protect" class="dropdown-item" href="#Protect">“Who are you protecting?”</a>
+                    <a id="Unity" class="dropdown-item" href="#Unity">“Unity can change the game”</a>
+                  </div>
+                </li>
+                <li class="nav-item px-3">
+                  <a id="Juneteenth" class="nav-link" href="#Juneteenth">PHOTOS: Juneteenth Liberation Rally</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a id="Events" class="nav-link" href="#Events">Upcoming Events</a>
+                </li>
+            </ul>
+        </div> <!-- navbar collapse-->
+      <!-- </div> close container -->
+    </nav>
+
+    <div class="container-fluid" id="VoicesText">
+      <!-- row 1 -->
+      <div class="row align-items-center">
+        <div class="svgSub col-sm-12 col-md-4 py-4">
+          <img src="images/protestors.svg" class="img-fluid">
+        </div>
+        <div class="svg col-sm-12 col-md-4 py-4">
+
+          <svg class="m-auto" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="500px" x="0px" y="0px"
+          viewBox="0 0 1383.9 965" style="enable-background:new 0 0 1383.9 965;" xml:space="preserve">
+          <style type="text/css">
+          .st0{fill:#000;}
+          </style>
+          <path id="XMLID_242_" class="st0" d="M758.3,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C758.4,329.2,761.6,320.6,758.3,313.4z"/>
+          <path id="XMLID_241_" class="st0" d="M487.3,112.3c-19.4,0-35.1,15.7-35.1,35.1s15.7,35,35.1,35s35.1-15.7,35.1-35
+          C522.4,128,506.7,112.3,487.3,112.3z"/>
+          <path id="XMLID_238_" class="st0" d="M571.8,174.1c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4
+          c4.3-2.7,7.3-7.2,7.3-12.7V15.2C596.8,6.8,590,0,581.6,0H393c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7
+          c-2.3,3.6-3.2,8-1.9,12.4l15.6,51c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18s18-8.1,18-18V346.6
+          h13.1v107.2c0,9.9,8.1,18,18,18s18-8.1,18-18c0-172.5,0-66.6,0-239.2L571.8,174.1z M513,189.2h-51.4l-35.2-34l-14.5-47.3
+          c-0.1-0.4-0.4-0.7-0.6-1h151.9c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L513,189.2z"/>
+          <path id="XMLID_237_" class="st0" d="M668.1,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7
+          c-18.6,0-33.7,15.1-33.7,33.7C634.4,178.1,649.5,193.2,668.1,193.2z"/>
+          <path id="XMLID_2_" class="st0" d="M966.9,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C967,329.2,970.2,320.6,966.9,313.4z"/>
+          <path id="XMLID_1_" class="st0" d="M876.7,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7
+          c-18.6,0-33.7,15.1-33.7,33.7C843.1,178.1,858.1,193.2,876.7,193.2z"/>
+          <path id="XMLID_4_" class="st0" d="M1174.2,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C1174.3,329.2,1177.5,320.6,1174.2,313.4z"/>
+          <path id="XMLID_3_" class="st0" d="M1084,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C1050.3,178.1,1065.4,193.2,1084,193.2z"/>
+          <path id="XMLID_6_" class="st0" d="M1382.6,313.5l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C1382.7,329.2,1385.9,320.7,1382.6,313.5z"/>
+          <path id="XMLID_5_" class="st0" d="M1292.4,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C1258.8,178.2,1273.9,193.2,1292.4,193.2z"/>
+          <path id="XMLID_8_" class="st0" d="M388.4,313.8l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V351.2h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V275
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C388.5,329.6,391.7,321.1,388.4,313.8z"/>
+          <path id="XMLID_7_" class="st0" d="M298.2,193.6c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C264.6,178.5,279.6,193.6,298.2,193.6z"/>
+          <path id="XMLID_10_" class="st0" d="M181.6,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C181.7,329.2,184.9,320.6,181.6,313.4z"/>
+          <path id="XMLID_9_" class="st0" d="M91.4,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7S57.7,141,57.7,159.6
+          C57.7,178.1,72.8,193.2,91.4,193.2z"/>
+          <path id="XMLID_12_" class="st0" d="M1019.5,605.4c-19.4,0-35.1,15.7-35.1,35.1c0,19.4,15.7,35,35.1,35s35.1-15.7,35.1-35
+          C1054.6,621.1,1038.9,605.4,1019.5,605.4z"/>
+          <path id="XMLID_11_" class="st0" d="M1104,667.2c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4c4.3-2.7,7.3-7.2,7.3-12.7
+          v-76.4c0.1-8.4-6.7-15.2-15.1-15.2H925.2c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7c-2.3,3.6-3.2,8-1.9,12.4l15.6,51
+          c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18c9.9,0,18-8.1,18-18V839.7h13.1v107.2
+          c0,9.9,8.1,18,18,18s18-8.1,18-18c0-172.5,0-66.6,0-239.2L1104,667.2z M1045.2,682.3h-51.4l-35.2-34L944.1,601
+          c-0.1-0.4-0.4-0.7-0.6-1h151.9c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L1045.2,682.3z"/>
+          <path id="XMLID_14_" class="st0" d="M1300,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C1300.1,822.4,1303.3,813.9,1300,806.7z"/>
+          <path id="XMLID_13_" class="st0" d="M1209.8,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C1176.2,671.4,1191.3,686.4,1209.8,686.4z"/>
+          <path id="XMLID_16_" class="st0" d="M884.2,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C884.3,822.4,887.5,813.9,884.2,806.7z"/>
+          <path id="XMLID_15_" class="st0" d="M794,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C760.4,671.4,775.5,686.4,794,686.4z"/>
+          <path id="XMLID_18_" class="st0" d="M675.6,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C675.7,822.4,678.9,813.9,675.6,806.7z"/>
+          <path id="XMLID_17_" class="st0" d="M585.4,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C551.8,671.4,566.9,686.4,585.4,686.4z"/>
+          <path id="XMLID_20_" class="st0" d="M468.1,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C468.2,822.4,471.4,813.9,468.1,806.7z"/>
+          <path id="XMLID_19_" class="st0" d="M377.9,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C344.3,671.4,359.4,686.4,377.9,686.4z"/>
+          <path id="XMLID_22_" class="st0" d="M185.4,605.4c-19.4,0-35.1,15.7-35.1,35.1c0,19.4,15.7,35,35.1,35s35.1-15.7,35.1-35
+          C220.5,621.1,204.8,605.4,185.4,605.4z"/>
+          <path id="XMLID_21_" class="st0" d="M269.9,667.2c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4c4.3-2.7,7.3-7.2,7.3-12.7
+          v-76.4c0.1-8.4-6.7-15.2-15.1-15.2H91.1c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7c-2.3,3.6-3.2,8-1.9,12.4l15.6,51
+          c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18s18-8.1,18-18V839.7h13.1v107.2c0,9.9,8.1,18,18,18
+          c9.9,0,18-8.1,18-18c0-172.5,0-66.6,0-239.2L269.9,667.2z M211.1,682.3h-51.4l-35.2-34L110,601c-0.1-0.4-0.4-0.7-0.6-1h151.9
+          c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L211.1,682.3z"/>
+          </svg>
+
+        </div>
+        <div id="quoteReveal1" class="col-sm-12 col-md-4 py-4">
+          <blockquote class="blockquote text-center">
+            <p>I'm not only grieving for George Floyd, but I'm grieving for Ahmaud Arbery and Philando Castile and my uncle and my father and my friends. At any moment, they could be next.</p>
+            <footer class="blockquote-footer"><cite>Aeriel Lane</cite>, organizer of March for Our Freedom</footer>
+          </blockquote>
+        </div>
+        <div class="col-sm-12 col-md-4 py-4">
+          <figure id="protest1" class="m-auto">
+            <img src="images/protest1.PNG" class="img-fluid">
+            <!-- <figcaption class="figure-caption">caption</figcaption> -->
+          </figure>
+        </div>
+      </div><!-- end row -->
+
+      <!-- row 2 -->
+      <div class="row align-items-center">
+        <div id="quoteReveal2" class="col-sm-12 col-md-4 py-4">
+          <blockquote class="blockquote text-center py-2">
+            <p>I feel that it's right for us to support our brothers and sisters and stand up for what's right and what's wrong.</p>
+            <footer class="blockquote-footer"><cite>Kristen Johnson</cite>, Protester</footer>
+          </blockquote>
+        </div>
+        <div class="col-sm-12 col-md-4 py-4">
+          <figure class="m-auto">
+            <img src="images/protest6.PNG" class="img-fluid">
+            <!-- <figcaption class="figure-caption">caption</figcaption> -->
+          </figure>
+        </div>
+        <div id="quoteReveal3" class="col-sm-12 col-md-4 py-4">
+          <blockquote class="blockquote text-center">
+            <p>Lynching doesn’t always happen with a rope. Sometimes it happens with a knee.</p>
+            <footer class="blockquote-footer"><cite>Brandon McKay</cite>, UF student</footer>
+          </blockquote>
+        </div>
+      </div> <!-- end row -->
+
+    <!-- row 3 -->
+    <div class="row align-items-center">
+        <div class="col-sm-12 col-md-4 py-4">
+          <figure class="m-auto">
+            <img src="images/protest5.PNG" class="img-fluid">
+            <!-- <figcaption class="figure-caption">caption</figcaption> -->
+          </figure>
+        </div>
+        <div id="quoteReveal4" class="col-sm-12 col-md-4 py-4">
+          <blockquote class="blockquote text-center">
+            <p>We’re dealing with the murdering of black and brown people, and it’s time to put a stop to it.</p>
+            <footer class="blockquote-footer"><cite>Latalyia Tagg McKnight</cite>, co-organizer of March for Our Freedom</footer>
+          </blockquote>
+        </div>
+        <div class="svgSub col-sm-12 col-md-4 py-4">
+          <img src="images/protestors.svg" class="img-fluid">
+        </div>
+        <div class="svg col-sm-12 col-md-4 py-4">
+
+          <svg class="m-auto" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="500px" x="0px" y="0px"
+          viewBox="0 0 1383.9 965" style="enable-background:new 0 0 1383.9 965;" xml:space="preserve">
+          <style type="text/css">
+          .st0{fill:#000;}
+          </style>
+          <path id="XMLID_242_" class="st0" d="M758.3,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C758.4,329.2,761.6,320.6,758.3,313.4z"/>
+          <path id="XMLID_241_" class="st0" d="M487.3,112.3c-19.4,0-35.1,15.7-35.1,35.1s15.7,35,35.1,35s35.1-15.7,35.1-35
+          C522.4,128,506.7,112.3,487.3,112.3z"/>
+          <path id="XMLID_238_" class="st0" d="M571.8,174.1c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4
+          c4.3-2.7,7.3-7.2,7.3-12.7V15.2C596.8,6.8,590,0,581.6,0H393c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7
+          c-2.3,3.6-3.2,8-1.9,12.4l15.6,51c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18s18-8.1,18-18V346.6
+          h13.1v107.2c0,9.9,8.1,18,18,18s18-8.1,18-18c0-172.5,0-66.6,0-239.2L571.8,174.1z M513,189.2h-51.4l-35.2-34l-14.5-47.3
+          c-0.1-0.4-0.4-0.7-0.6-1h151.9c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L513,189.2z"/>
+          <path id="XMLID_237_" class="st0" d="M668.1,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7
+          c-18.6,0-33.7,15.1-33.7,33.7C634.4,178.1,649.5,193.2,668.1,193.2z"/>
+          <path id="XMLID_2_" class="st0" d="M966.9,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C967,329.2,970.2,320.6,966.9,313.4z"/>
+          <path id="XMLID_1_" class="st0" d="M876.7,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7
+          c-18.6,0-33.7,15.1-33.7,33.7C843.1,178.1,858.1,193.2,876.7,193.2z"/>
+          <path id="XMLID_4_" class="st0" d="M1174.2,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C1174.3,329.2,1177.5,320.6,1174.2,313.4z"/>
+          <path id="XMLID_3_" class="st0" d="M1084,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C1050.3,178.1,1065.4,193.2,1084,193.2z"/>
+          <path id="XMLID_6_" class="st0" d="M1382.6,313.5l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C1382.7,329.2,1385.9,320.7,1382.6,313.5z"/>
+          <path id="XMLID_5_" class="st0" d="M1292.4,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C1258.8,178.2,1273.9,193.2,1292.4,193.2z"/>
+          <path id="XMLID_8_" class="st0" d="M388.4,313.8l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V351.2h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V275
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C388.5,329.6,391.7,321.1,388.4,313.8z"/>
+          <path id="XMLID_7_" class="st0" d="M298.2,193.6c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C264.6,178.5,279.6,193.6,298.2,193.6z"/>
+          <path id="XMLID_10_" class="st0" d="M181.6,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+          c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+          l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C181.7,329.2,184.9,320.6,181.6,313.4z"/>
+          <path id="XMLID_9_" class="st0" d="M91.4,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7S57.7,141,57.7,159.6
+          C57.7,178.1,72.8,193.2,91.4,193.2z"/>
+          <path id="XMLID_12_" class="st0" d="M1019.5,605.4c-19.4,0-35.1,15.7-35.1,35.1c0,19.4,15.7,35,35.1,35s35.1-15.7,35.1-35
+          C1054.6,621.1,1038.9,605.4,1019.5,605.4z"/>
+          <path id="XMLID_11_" class="st0" d="M1104,667.2c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4c4.3-2.7,7.3-7.2,7.3-12.7
+          v-76.4c0.1-8.4-6.7-15.2-15.1-15.2H925.2c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7c-2.3,3.6-3.2,8-1.9,12.4l15.6,51
+          c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18c9.9,0,18-8.1,18-18V839.7h13.1v107.2
+          c0,9.9,8.1,18,18,18s18-8.1,18-18c0-172.5,0-66.6,0-239.2L1104,667.2z M1045.2,682.3h-51.4l-35.2-34L944.1,601
+          c-0.1-0.4-0.4-0.7-0.6-1h151.9c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L1045.2,682.3z"/>
+          <path id="XMLID_14_" class="st0" d="M1300,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C1300.1,822.4,1303.3,813.9,1300,806.7z"/>
+          <path id="XMLID_13_" class="st0" d="M1209.8,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C1176.2,671.4,1191.3,686.4,1209.8,686.4z"/>
+          <path id="XMLID_16_" class="st0" d="M884.2,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C884.3,822.4,887.5,813.9,884.2,806.7z"/>
+          <path id="XMLID_15_" class="st0" d="M794,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C760.4,671.4,775.5,686.4,794,686.4z"/>
+          <path id="XMLID_18_" class="st0" d="M675.6,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C675.7,822.4,678.9,813.9,675.6,806.7z"/>
+          <path id="XMLID_17_" class="st0" d="M585.4,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C551.8,671.4,566.9,686.4,585.4,686.4z"/>
+          <path id="XMLID_20_" class="st0" d="M468.1,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+          c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+          c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+          c3.3,7.3,11.9,10.4,19.1,7.1C468.2,822.4,471.4,813.9,468.1,806.7z"/>
+          <path id="XMLID_19_" class="st0" d="M377.9,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+          C344.3,671.4,359.4,686.4,377.9,686.4z"/>
+          <path id="XMLID_22_" class="st0" d="M185.4,605.4c-19.4,0-35.1,15.7-35.1,35.1c0,19.4,15.7,35,35.1,35s35.1-15.7,35.1-35
+          C220.5,621.1,204.8,605.4,185.4,605.4z"/>
+          <path id="XMLID_21_" class="st0" d="M269.9,667.2c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4c4.3-2.7,7.3-7.2,7.3-12.7
+          v-76.4c0.1-8.4-6.7-15.2-15.1-15.2H91.1c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7c-2.3,3.6-3.2,8-1.9,12.4l15.6,51
+          c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18s18-8.1,18-18V839.7h13.1v107.2c0,9.9,8.1,18,18,18
+          c9.9,0,18-8.1,18-18c0-172.5,0-66.6,0-239.2L269.9,667.2z M211.1,682.3h-51.4l-35.2-34L110,601c-0.1-0.4-0.4-0.7-0.6-1h151.9
+          c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L211.1,682.3z"/>
+          </svg>
+
+        </div>
+    </div><!-- end row -->
+
+    <!-- row 4 -->
+    <div class="row align-items-center">
+      <div id="quoteReveal5" class="col-sm-12 col-md-4 py-4">
+        <blockquote class="blockquote text-center">
+          <p>Slavery wasn’t abolished y’all. It’s in the prison system.</p>
+          <footer class="blockquote-footer"><cite>Kiara Laurent</cite>, Protester</footer>
+        </blockquote>
+      </div>
+      <div class="col-sm-12 col-md-4 py-4">
+        <figure class="m-auto">
+          <img src="images/protest3.PNG" class="img-fluid">
+          <!-- <figcaption class="figure-caption">caption</figcaption> -->
+        </figure>
+      </div>
+      <div id="quoteReveal6" class="col-sm-12 col-md-4 py-4">
+        <blockquote class="blockquote text-center">
+          <p>COVID is a concern, but our black community getting killed is also a concern.</p>
+          <footer class="blockquote-footer"><cite>Catherine Jean</cite>, EMT with Guerrilla Medics</footer>
+        </blockquote>
+      </div>
+    </div> <!-- end row -->
+
+    <!-- row 5 -->
+    <div class="row align-items-center">
+      <div class="svgSub col-sm-12 col-md-4 py-4">
+        <img src="images/protestors.svg" class="img-fluid">
+      </div>
+      <div class="svg col-sm-12 col-md-4 py-4">
+
+        <svg class="m-auto" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="500px" x="0px" y="0px"
+        viewBox="0 0 1383.9 965" style="enable-background:new 0 0 1383.9 965;" xml:space="preserve">
+        <style type="text/css">
+        .st0{fill:#000;}
+        </style>
+        <path id="XMLID_242_" class="st0" d="M758.3,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+        c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+        l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C758.4,329.2,761.6,320.6,758.3,313.4z"/>
+        <path id="XMLID_241_" class="st0" d="M487.3,112.3c-19.4,0-35.1,15.7-35.1,35.1s15.7,35,35.1,35s35.1-15.7,35.1-35
+        C522.4,128,506.7,112.3,487.3,112.3z"/>
+        <path id="XMLID_238_" class="st0" d="M571.8,174.1c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4
+        c4.3-2.7,7.3-7.2,7.3-12.7V15.2C596.8,6.8,590,0,581.6,0H393c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7
+        c-2.3,3.6-3.2,8-1.9,12.4l15.6,51c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18s18-8.1,18-18V346.6
+        h13.1v107.2c0,9.9,8.1,18,18,18s18-8.1,18-18c0-172.5,0-66.6,0-239.2L571.8,174.1z M513,189.2h-51.4l-35.2-34l-14.5-47.3
+        c-0.1-0.4-0.4-0.7-0.6-1h151.9c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L513,189.2z"/>
+        <path id="XMLID_237_" class="st0" d="M668.1,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7
+        c-18.6,0-33.7,15.1-33.7,33.7C634.4,178.1,649.5,193.2,668.1,193.2z"/>
+        <path id="XMLID_2_" class="st0" d="M966.9,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+        c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+        l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C967,329.2,970.2,320.6,966.9,313.4z"/>
+        <path id="XMLID_1_" class="st0" d="M876.7,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7
+        c-18.6,0-33.7,15.1-33.7,33.7C843.1,178.1,858.1,193.2,876.7,193.2z"/>
+        <path id="XMLID_4_" class="st0" d="M1174.2,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+        c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+        l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C1174.3,329.2,1177.5,320.6,1174.2,313.4z"/>
+        <path id="XMLID_3_" class="st0" d="M1084,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C1050.3,178.1,1065.4,193.2,1084,193.2z"/>
+        <path id="XMLID_6_" class="st0" d="M1382.6,313.5l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+        c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+        l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C1382.7,329.2,1385.9,320.7,1382.6,313.5z"/>
+        <path id="XMLID_5_" class="st0" d="M1292.4,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C1258.8,178.2,1273.9,193.2,1292.4,193.2z"/>
+        <path id="XMLID_8_" class="st0" d="M388.4,313.8l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+        c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V351.2h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V275
+        l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C388.5,329.6,391.7,321.1,388.4,313.8z"/>
+        <path id="XMLID_7_" class="st0" d="M298.2,193.6c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C264.6,178.5,279.6,193.6,298.2,193.6z"/>
+        <path id="XMLID_10_" class="st0" d="M181.6,313.4l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1c7.2,3.3,15.8,0.2,19.1-7.1l23.2-50.8v179.8
+        c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V350.8h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V274.6
+        l23.2,50.8c3.3,7.3,11.9,10.4,19.1,7.1C181.7,329.2,184.9,320.6,181.6,313.4z"/>
+        <path id="XMLID_9_" class="st0" d="M91.4,193.2c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7S57.7,141,57.7,159.6
+        C57.7,178.1,72.8,193.2,91.4,193.2z"/>
+        <path id="XMLID_12_" class="st0" d="M1019.5,605.4c-19.4,0-35.1,15.7-35.1,35.1c0,19.4,15.7,35,35.1,35s35.1-15.7,35.1-35
+        C1054.6,621.1,1038.9,605.4,1019.5,605.4z"/>
+        <path id="XMLID_11_" class="st0" d="M1104,667.2c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4c4.3-2.7,7.3-7.2,7.3-12.7
+        v-76.4c0.1-8.4-6.7-15.2-15.1-15.2H925.2c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7c-2.3,3.6-3.2,8-1.9,12.4l15.6,51
+        c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18c9.9,0,18-8.1,18-18V839.7h13.1v107.2
+        c0,9.9,8.1,18,18,18s18-8.1,18-18c0-172.5,0-66.6,0-239.2L1104,667.2z M1045.2,682.3h-51.4l-35.2-34L944.1,601
+        c-0.1-0.4-0.4-0.7-0.6-1h151.9c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L1045.2,682.3z"/>
+        <path id="XMLID_14_" class="st0" d="M1300,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+        c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+        c3.3,7.3,11.9,10.4,19.1,7.1C1300.1,822.4,1303.3,813.9,1300,806.7z"/>
+        <path id="XMLID_13_" class="st0" d="M1209.8,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C1176.2,671.4,1191.3,686.4,1209.8,686.4z"/>
+        <path id="XMLID_16_" class="st0" d="M884.2,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+        c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+        c3.3,7.3,11.9,10.4,19.1,7.1C884.3,822.4,887.5,813.9,884.2,806.7z"/>
+        <path id="XMLID_15_" class="st0" d="M794,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C760.4,671.4,775.5,686.4,794,686.4z"/>
+        <path id="XMLID_18_" class="st0" d="M675.6,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+        c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+        c3.3,7.3,11.9,10.4,19.1,7.1C675.7,822.4,678.9,813.9,675.6,806.7z"/>
+        <path id="XMLID_17_" class="st0" d="M585.4,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C551.8,671.4,566.9,686.4,585.4,686.4z"/>
+        <path id="XMLID_20_" class="st0" d="M468.1,806.7l-48-105.1c-2.6-5.7-8.5-8.7-14.4-8.2c-0.7-0.1-54.8-0.1-55.5,0
+        c-5.9-0.6-11.8,2.5-14.4,8.2l-48,105.1c-3.3,7.2-0.1,15.8,7.1,19.1s15.8,0.2,19.1-7.1l23.2-50.8v179.8c0,9.5,7.7,17.3,17.3,17.3
+        c9.5,0,17.3-7.7,17.3-17.3V844h12.6v103.6c0,9.5,7.7,17.3,17.3,17.3c9.5,0,17.3-7.7,17.3-17.3V767.8l23.2,50.8
+        c3.3,7.3,11.9,10.4,19.1,7.1C468.2,822.4,471.4,813.9,468.1,806.7z"/>
+        <path id="XMLID_19_" class="st0" d="M377.9,686.4c18.6,0,33.7-15.1,33.7-33.6c0-18.6-15.1-33.7-33.7-33.7s-33.7,15.1-33.7,33.7
+        C344.3,671.4,359.4,686.4,377.9,686.4z"/>
+        <path id="XMLID_22_" class="st0" d="M185.4,605.4c-19.4,0-35.1,15.7-35.1,35.1c0,19.4,15.7,35,35.1,35s35.1-15.7,35.1-35
+        C220.5,621.1,204.8,605.4,185.4,605.4z"/>
+        <path id="XMLID_21_" class="st0" d="M269.9,667.2c1.8-1.8,3.2-4,3.9-6.4l15.6-51c1.3-4.4,0.4-8.8-1.9-12.4c4.3-2.7,7.3-7.2,7.3-12.7
+        v-76.4c0.1-8.4-6.7-15.2-15.1-15.2H91.1c-8.4,0-15.2,6.8-15.2,15.2v76.5c0,5.4,3,10,7.3,12.7c-2.3,3.6-3.2,8-1.9,12.4l15.6,51
+        c0.7,2.4,2.1,4.6,3.9,6.4l42,40.5c0,156.1,0,48.5,0,239.2c0,9.9,8.1,18,18,18s18-8.1,18-18V839.7h13.1v107.2c0,9.9,8.1,18,18,18
+        c9.9,0,18-8.1,18-18c0-172.5,0-66.6,0-239.2L269.9,667.2z M211.1,682.3h-51.4l-35.2-34L110,601c-0.1-0.4-0.4-0.7-0.6-1h151.9
+        c-0.2,0.4-0.5,0.7-0.6,1l-14.5,47.3L211.1,682.3z"/>
+        </svg>
+      </div>
+      <div id="quoteReveal7" class="col-sm-12 col-md-4 py-4">
+        <blockquote class="blockquote text-center">
+          <p>I would like for black Americans in Gainesville to at least feel safe somewhere and feel like they have a voice against the system.</p>
+          <footer class="blockquote-footer"><cite>Aeriel Lane</cite>, organizer of March for Our Freedom</footer>
+        </blockquote>
+      </div>
+      <div class="col-sm-12 col-md-4 py-4">
+        <figure class="m-auto">
+          <img src="images/protest2.PNG" class="img-fluid">
+          <!-- <figcaption class="figure-caption">caption</figcaption> -->
+        </figure>
+      </div>
+    </div> <!-- end row -->
+
+  <!-- row 6 -->
+    <div class="row align-items-center">
+      <div id="quoteReveal8" class="col-sm-12 col-md-4 py-4">
+        <blockquote class="blockquote text-center">
+          <p>We are one human family. Let’s make it seem that way.</p>
+          <footer class="blockquote-footer"><cite>Kathy Otero</cite>, Protester</footer>
+        </blockquote>
+      </div>
+      <div class="col-sm-12 col-md-4 py-4">
+        <figure class="m-auto">
+          <img src="images/protest4.PNG" class="img-fluid">
+          <!-- <figcaption class="figure-caption">caption</figcaption> -->
+        </figure>
+      </div>
+      <div id="quoteReveal9" class="col-sm-12 col-md-4 py-4">
+        <blockquote class="blockquote text-center">
+          <p>Discover your power and influence and activate it.</p>
+          <footer class="blockquote-footer"><cite>Reuben Faloughi</cite>, Activist</footer>
+        </blockquote>
+      </div>
+    </div> <!-- end row -->
+  </div> <!-- end container-->
+
+
+
+    <div class="container-fluid" id="MarchText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">More than 1,000 people march in solidarity with George Floyd</h2>
+          <h3 class="byline pt-4">Staff Report</h3>
+          <h3 class="byline pb-4"><i>May 30, 2020</i></h3>
+          <figure>
+            <img class="img-fluid" src="images/march.jpg" alt="Crowd at the march">
+            <figcaption class="figure-caption">Reuben Faloughi, who led the chants at the March for our Freedom rally at Bo Diddley Plaza, calls for the gathered crowd to unite together in support of George Floyd and the countless other African Americans who lost their lives at the hands of police officers. 
+              <br> 
+              <cite>Christian Ortega / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <p>George Floyd took his last breath Monday, but chants demanding his name be remembered echoed down the streets of downtown Gainesville Saturday.</p>
+          <p>Holding signs with messages like “I can’t breathe” and “white silence is violence,” protesters shouted that black lives matter through masks and bandanas and called for justice for Floyd’s death.</p>
+          <p>More than 1,000 people marched from Depot Park to Bo Diddley plaza Saturday morning in the March for our Freedom protest, joining a string of <a href="https://www.nytimes.com/2020/05/29/us/minneapolis-police-george-floyd.html" target="_blank">national demonstrations.</a> Locals gathered to protest the killing of George Floyd, a black man who died on Monday after a white ex-Minneapolis police officer <a href="https://www.nytimes.com/2020/05/29/us/minneapolis-police-george-floyd.html" target="_blank">knelt on his neck</a> for more than eight minutes.</p>
+          <p>“The reason that he was fired and charged with murder is the protests and the energy and the movements for justice which make this possible,” said UF history professor Paul Ortiz. “Ten to 15 years ago, he would not have been charged.”</p>
+          <p>Aeriel Lane, a 36-year-old Gainesville resident and local activist, organized the march.</p>
+          <p>“I'm not only grieving for George Floyd, but I'm grieving for Ahmaud Arbery and Philando Castile and my uncle and my father and my friends,” Lane said. “At any moment, they could be next. They could be the next hashtag.”</p>
+          <p>Members of Dream Defenders, a youth-led group that wants to spread awareness about their vision of safety and security, distributed water bottles and black face masks to the crowd to prepare for the march ahead. Lane informed the crowd that EMTs would be present and riding bicycles to keep up with the march in case anyone needed medical assistance at any point.</p>
+          <p>Before the journey started at 11 a.m., Lane told the crowd that she wanted to reiterate it was to be a peaceful demonstration.</p>
+          <p>“I would like to be able to get out into the community and maybe mend relationships with law enforcement,” Lane said. “But if that's not possible, I would like for black Americans in Gainesville to at least feel safe somewhere and feel like they have a voice against the system.”</p>
+          <p>As protesters began making their way to Bo Diddley Plaza, individuals lining the streets offered supplies and support along the way. Cars honked and one motorcyclist revved his engine in displays of support.</p>
+          <p>Water and milk were available in case protesters were pepper sprayed, a technique used <a href="https://www.cnn.com/us/live-news/george-floyd-protest-updates-05-28-20/index.html" target="_blank">at other demonstrations.</a></p>
+          <p>“We’re different here in Gainesville,” 62-year-old Gainesville Police Chief Tony Jones said. He said despite the large number of recent killings of black Americans <a href="https://www.nytimes.com/topic/subject/police-brutality-misconduct-and-shootings" target="_blank">poorly reflecting</a> on law enforcement, GPDs policing is community-oriented.</p>
+          <p>Protest organizers required that participants wear masks throughout the entire march. Catherine Jean, a 38-year-old EMT, was offering assistance at the protest on behalf of Guerrilla Medics. She said that she saw almost 100% compliance with the organizers’ request.</p>
+          <p>“COVID is a concern, but our black community getting killed is also a concern,” Jean said.</p>
+          <p>People of all ages were present, and families joined together in protest. Forty-three-year-old Katrina Span attended the demonstration with her young daughter.</p>
+          <p>“This is to show her that there are good people in the world,” she said. “If we don’t speak up for ourselves, no one will.”</p>
+          <p>Twelve-year-old Madagail Russell drove with her mother and sister from Trenton, a city an hour away from Gainesville, to be a part of the march. She said she marched to support her black friends who are like family to her who couldn’t come out.</p>
+          <p>Allie Yocum, a 32-year-old local farm owner, rode her horse, Jupiter, an 18-year-old leopard appaloosa gelding, in Bo Diddley Plaza. The white and black horse had “BLM” painted on both sides of its back legs.</p>
+          <p>“We wanted to stand in solidarity, and we thought there’s nothing more solid than a horse,” Yocum said. Her husband, Zane Barber, said every voice deserves to be heard.</p>
+          <p>Lane addressed the crowd, and a moment of silence washed over Bo Diddley Plaza as each participant raised their fist in solidarity.</p>
+          <p>Reuben Faloughi, who led chants at the plaza, talked about his own experience overcoming his past objectification of women and encouraged people to use their personal power and influence to make a difference.</p>
+          <p>“In the past few weeks, raise your hand if you’ve felt powerless,” Faloughi said. “In the past few weeks, raise your hand if you’ve felt hopeless.”</p>
+          <p>A sea of hands flew up. While the protest began to simmer down, a woman sang “Still I Rise” to the crowd.</p>
+          <p>Lane ended the event in Bo Diddley with a speech thanking everyone for demanding change. After she shouted “Step the f*** up” into a megaphone, the crowd dispersed.</p>
+          <p>While the official March for Our Freedom demonstration ended at about 12:15 p.m., protesters broke out into groups to continue demonstrating. Some protesters turned down Sixth Avenue when the march ended, but about 30 people stopped at Main Street and University Avenue, calling for protesters to head to the Gainesville Police station.</p>
+          <p>As crowds passed the Alachua County Courthouse, a GPD officer stood in a SWAT uniform with the sounds of clapping and chants of “No justice, no peace” surrounding him.</p>
+          <p>About 150 protesters gathered outside the GPD station and began to chant “I can’t breathe,” “No justice no peace, f*** the police” and “These racist cops have got to go, hey hey, ho ho.”</p>
+          <p>While there was no clear organizer at the GPD station demonstration, Gainesville resident Kristen Johnson was in the center of a crowd and held a megaphone. The crowd grew larger, and EMTs followed in case of emergencies. Roaring chants in unison for black lives swallowed the street, along with bike riders ringing bells in support.</p>
+          <p>“It's almost like opening the newspaper and it's 1944,” Ortiz said. “After seeing these types of protests now for four decades from the perspective of the protesters, the problem is a lack of accountability amongst police forces in their locales.”</p>
+          <p>Protesters blocked Northwest Eighth Avenue and Northwest Sixth Street near the police station.</p>
+          <p>“Police tried to block us and confine us to a small square, so instead we started blocking other people out for protester safety and to have more room for impact,” said Kyrsten Owens, an 18-year-old protester helping block Northwest Eighth Avenue.</p>
+          <p>The scene at the police station grew quiet when a protester asked for a moment of silence for George Floyd. About 75 protesters then marched back toward Depot Park chanting “Black Lives Matter.” Some began chanting “F*** Trump,” and one protester yelled, “Stay focused y’all, f*** the police!”</p>
+          <p>Protesters continued chanting “No cops, no KKK, no fascist USA,” “Abolish the police,” and “All cops are fascist” until they reached Depot Park.</p>
+          <p>During another offshoot demonstration on Main Street, a man in a silver Kia Soul drove through a crowd of protesters, according to eyewitnesses.</p>
+          <p>Sam Houle, a 21-year-old UF graduate, was participating in the demonstration when the incident occurred. He and other protesters were spread across Main Street to prevent traffic from passing and to make “as big a scene as we could.”</p>
+          <p>According to GPD Lt. Robert Fanelli, who saw the aftermath of the incident, witnesses told him that the suspect drove toward the crowd after passing two cars on a road protesters were blocking. Two or three of the witnesses said someone on a bike was hit by the vehicle, Fanelli said. No one has come forward to GPD about being hit by the car, Fanelli said.</p>
+          <p>Witnesses told Fanelli the driver appeared to be brandishing a gun. He said a silver semi automatic pistol was found with the driver, but no shots were fired.</p>
+          <p>Alachua County Jail identified the suspect driving the car as William John Connelly. The 64-year-old was charged with six counts of aggravated assault, according to a <a href="https://twitter.com/GainesvillePD/status/1266885567855419392?s=20" target="_blank">GPD tweet.</a> He will be making his first court appearance Sunday morning, and an investigation into the incident is still ongoing.</p>
+          <p>The Alligator reached out to more than 10 people who voiced their disapproval of the crowd’s behavior on social media. Some declined to comment, and none of the remaining responded in time for this story’s publication.</p>
+          <p>Kathy Otero, 33, spent the afternoon demonstrating with her husband and dog by her side.</p>
+          <p>“We are one human family,” she said. “Let’s make it seem that way.”</p>
+          <p><i>This story has been updated to reflect the correct spelling of EMT Catherine Jean's name. The Alligator originally reported differently.</i></p>
+          <p><i>Chasity Maynard, Tristan Wood, Natalia Galicza, Ariana Aspuru and Christian Ortega contributed to this report.</i></p>
+        </div>
+      </div>
+    </div> <!-- end container-->
+
+    <div class="container-fluid" id="DemonstrationsText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">Demonstrations for George Floyd continue</h2>
+          <h3 class="byline pt-4">By Kaelyn Cassidy and Chasity Maynard, Staff Writers</h3>
+          <h3 class="byline pb-4"><i>Jun 3, 2020</i></h3>
+          <figure>
+            <img class="img-fluid" src="images/demonstrations.jpg" alt="Protestors hug at demonstration">
+            <figcaption class="figure-caption">Morris McFadden, a 21-year-old telecommunications and production major and one of the organizers of the protest, hugs Clifford Taylor IV, a 21-year-old graphic design senior, Wednesday during a protest at the intersection of 13th Street and University Avenue against police brutality. The two hugged after Taylor spoke to the crowd. 
+              <br> 
+              <cite>Sam Thomas</cite>
+            </figcaption>
+          </figure>
+          <p>Morris McFadden couldn’t attend the March for our Freedom protest Saturday, so he decided to start his own.</p>
+          <p>The 21-year-old UF telecommunications and production senior said he had looked for a protest in Gainesville to participate in for about a week because he felt guilty when he missed the one on Saturday for work. He said he felt torn because he needs money for rent and food, but also wanted to be out demonstrating.</p>
+          <p>When McFadden couldn’t find anything that had already been organized, he and Daniel Brackett, a 24-year-old UF exercise and sports science senior, took the initiative upon themselves. They planned the protest on Tuesday and started to publicize it over Twitter and Instagram around 4 p.m.</p>
+          <p>“It’s important to protest because if we sit at home and say nothing we will never, ever be heard,” McFadden said.</p>
+          <p>About 150 people gathered on the corner of University Avenue and 13th Street on Wednesday at 11 a.m. to protest police brutality and the killing of <a href="https://www.nytimes.com/2020/05/31/us/george-floyd-investigation.html" target="_blank">George Floyd</a> by ex-Minneapolis police officer Derek Chauvin. Most wore masks to limit the spread of COVID-19, and many carried signs.</p>
+          <p>This protest was one of a wave of protests across the nation in the last week.</p>
+          <p>The event remained peaceful. Protesters sweat in the humidity as they walked from University Avenue to Gale Lemerand Drive and back, some stopping occasionally for a water break or to breathe without their mask. They waved signs and chanted messages like, “No justice, no peace, no racist police,” and “Black Lives Matter.”</p>
+          <p>Innocent people are dying, Brackett said. Fathers and grandfathers are being murdered at the hands of law enforcement, he said, and people need to fight against that.</p>
+          <p>“We have to suffer,” he said. “We have to hurt because that’s our community. And nothing’s being done.”</p>
+          <p>Cars honked in support of the protesters, with some people cheering and hanging out of their windows, holding up fists and toting their own signs. Brackett held a megaphone for almost the entire protest and led most of the chants.</p>
+          <p>He encouraged people to sign petitions and donate to organizations fighting racism and police brutality.</p>
+          <p>In the midst of a pandemic, protesting in large crowds defies CDC guidelines to social distance. McFadden said that those who couldn’t be at the protest because of safety concerns or other conflicts can still be engaged by spreading awareness and having conversations with friends that are people of color about their experiences with racism.</p>
+          <p>McFadden said that white people can help by being advocates for the cause.</p>
+          <p>“They can use their privilege and platform to stand with us, protect us, and make our voices louder, not speak for us, but amplify our voices,” he said.</p>
+          <p>Some protesters borrowed the megaphone to share their thoughts and stories dealing with racism. Dee Williams, 31, said he has had negative experiences with law enforcement because he is black.</p>
+          <p>Two years ago, he left a party and was walking to Waffle House when a police car stopped him and flashed its lights. The officer got out of the car and pointed a gun at him while asking him questions. He said the official was determining if Williams fit a description for a suspect.</p>
+          <p>“At this moment I’m just standing still because I’m not trying to make any sudden moves, I’m not trying to cause anything crazy,” Williams said.</p>
+          <p>Six cruisers soon arrived on the scene. People outside the Waffle House began to record the incident, he said, out of concern it would escalate. After interrogating him for twenty minutes, law enforcement realized Williams was not the suspect and left. Williams ordered food from Waffle House and didn’t pursue the events further.</p>
+          <p>“If it wasn’t for me just standing there still, who knows what could have happened,” he said.</p>
+          <p>Williams told the crowd he thinks if he responded differently that day, he could have been killed like George Floyd, and not been there for his daughter.</p>
+          <p>The message behind this protest isn’t new, said 21-year-old UF English senior Dante Watson. It’s taken years for people to realize that former NFL quarterback Colin Kaepernick did the right thing when he kneeled during the national anthem, he said.</p>
+          <p>“Now that some people have turned to violence, everyone is focused on the violence and not what we have tried to do in the past in order to achieve the equality that we’ve been wanting for the past 600 or so years,” he said. “So I’m here today to fight for that.”</p>
+          <p><i>Contact Kaelyn and Chasity at kcassidy@alligator.org and cmaynard@alligator.org. Follow them on Twitter @kaelyn_cassidy and @chasitymaynard0.</i></p>
+        </div>
+      </div>
+    </div> <!-- end container-->
+
+    <div class="container-fluid" id="ReactText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">“We are arrested, or we end up dead”: UF reacts to murder of George Floyd</h2>
+          <h3 class="byline pt-4">By Nicole Rodriguez, Staff Writer</h3>
+          <h3 class="byline pb-4"><i>Jun 3, 2020</i></h3>
+          <figure>
+            <img class="img-fluid" src="images/react.jpg" alt="Graphic of protestors with signs">
+            <figcaption class="figure-caption"><cite>Kate McNamara / Alligator Staff</cite></figcaption>
+          </figure>
+          <p>Mackintosh Joachim said he’s sick and tired of being sick and tired.</p>
+          <p>The 21-year-old UF political science and women’s studies senior said it’s difficult to describe his experience growing up as a black person in America, where the color of his skin equates to a threat. After the murder of George Floyd by a Minneapolis police officer on May 25, the difficulty only mounted.</p>
+          <p>Joachim, the president of UF’s NAACP chapter, has an unshakable fight-or-flight response when he sees the red and blue lights of a police car nearby.</p>
+          <p>A routine interaction with police shouldn’t be a prison sentence, Joachim said⁠—and for many people, it isn’t. But for black Americans, it often is.</p>
+          <p>“We are arrested,” he said. ”Or we end up dead.”</p>
+          <p>Patricia Hilliard-Nunn, a senior lecturer in UF’s African American Studies program, said today’s justification of police brutality is not so different from the justifications used in the 1900s. Hilliard-Nunn studies the history of lynching of black Americans in Alachua County.</p>
+          <p>“There's nothing new going on,” Hilliard-Nunn said. “It's really simply an updated version of what black people have experienced in the United States of America since its inception.”</p>
+          <p>Law enforcement officers often took part in lynchings in the past, she said, but were never prosecuted. Their colleagues were usually part of the grand jury.</p>
+          <p>Hilliard-Nunn said that television and social media have given many people their first glimpse into the mistreatment of African American people, and as awareness grows, so does public outrage. Still, it’s not enough.</p>
+          <p>Not enough people are properly educated on white supremacy and how it has been used to systemically oppress black people, she said.</p>
+          <p>“Everybody will get upset, then everybody goes back to sleep––then something else happens because they never did anything,” Hilliard-Nunn said. “To do something means that you really have to dismantle practices that have been in place for a long time.“</p>
+          <p>To dismantle those practices, Hilliard-Nunn said, education is key. Greater awareness of lynching, killing and false imprisonment of black people could help bring about change.</p>
+          <p>“People need to unlearn racist beliefs, some of which make them see black people as criminals,” Hilliard-Nunn said. “When a person or society does not see your humanity, they have no problem lying about you, marginalizing, enslaving you, discriminating against you, lynching you, etc.”</p>
+          <p>UF’s African American Studies program began as a certification but is now moving toward <a href="https://www.alligator.org/news/a-sense-of-home-after-50-years-african-american-studies-program-to-be-department/article_c107af08-3668-11e9-aae4-377177770715.html" target="_blank">establishing itself as a department.</a> Department status will allow the program to hire more employees and to better educate students at UF, Hilliard-Nunn said.</p>
+          <p>UF President Kent Fuchs released a video on Twitter Friday <a href="https://www.alligator.org/news/campus/uf-president-condemns-killing-of-george-floyd/article_cd382b7e-a217-11ea-b969-8f6f72367cde.html" target="_blank">condemning Floyd’s murder.</a> He encouraged viewers to reflect on their biases and to educate themselves on racial injustice.</p>
+          <p>Later, UF Vice President for Student Affairs D’Andra Mull sent an email to students that said she recognized feelings of frustration and sorrow amid COVID-19 and racial violence. Mull said Floyd, Breonna Taylor, Ahmaud Arbery and Nina Pop were victims of racism and hate.</p>
+          <p>She misspelled Taylor and Arbery’s name in the email.</p>
+          <p>“UF please stop,” Joachim wrote in a Facebook post, where he included a photo of Arbery’s misspelled name. A correction was issued, but Joachim said he felt the damage was already done.</p>
+          <p>Sara Tanner, the UF Student Affairs director of marketing and strategic communications, said the misspelling of the two victims' names was an egregious mistake.</p>
+          <p>“That is very disrespectful,” Joachim said in a phone call. “It shows that UF never cared. What got me is that the student affairs vice president is a black woman, and she allowed that to go out.”</p>
+          <p>Jalyn Hollis, a 19-year-old UF finance sophomore, said that while she appreciates the university’s decision to speak out and sees it as a step in the right direction, statements on social media don’t stop race-related incidents from occurring on campus.</p>
+          <p>Actions speak louder than words, Hollis said. The university’s own history with race and racism make public statements like Fuchs’ seem disingenuous, she added.</p>
+          <p>UF faced <a href="https://www.alligator.org/news/uf-receives-a-grade-of-f-for-race-equity/article_922fb39c-c147-11e8-b444-4fa504f929f0.html" target="_blank">backlash in 2018</a> after it received an F ranking in a University of Southern California Race and Equity Center study determining racial representation. The study showed that African American students make up only 6.1 percent of UF’s student body.</p>
+          <p>In October 2019, UF Student Government brought <a href="https://www.alligator.org/news/live-blog-donald-trump-jr-comes-to-uf/article_f11fc048-eba0-11e9-b0e5-ef7707be93af.html" target="_blank">Donald Trump Jr. to speak on campus.</a> The event was met with protesting students chanting “Black Lives Matter” throughout the event.</p>
+          <p>The following month, a black student was called the N-word by a white student in a <a href="https://www.alligator.org/news/black-students-called-racial-slurs-in-snap-van/article_d5164aca-09af-11ea-8bce-430024c333de.html" target="_blank">SNAP van.</a> While UF’s Institute of Black Culture opened a day after, many saw the building's opening as a facade that hides the reality that African American students face at UF.</p>
+          <p>Hollis said she was shocked to hear of the university’s low race equity ranking. But she understands that African American students often feel that their voices don't matter, she said.</p>
+          <p>“Skin color does make it harder,” Hollis said. “Sometimes, being the only black person in the room, I definitely feel like things can be difficult when you feel like you're outnumbered.”</p>
+          <p>Hollis said the university could do a lot more to improve how race-related incidents are handled. Nevertheless, she said she supports Fuchs’ message to students about questioning their judgements and educating themselves.</p>
+          <p>Hilliard-Nunn said citizens must speak up and encourage the passage of anti-police brutality policy to ensure that the abuse stops.</p>
+          <p>“Unless our nation addresses systemic racism and white supremacy, nothing will change,” she said.</p>
+          <p><i>Contact Nicole at nrodriguez@alligator.org. Follow her on Twitter @_nrodriguez99.</i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="VigilText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">Hundreds gather to mourn those lost from the black community</h2>
+          <h3 class="byline pt-4">By Tristan Wood, Natalia Galicza and Ariana Aspuru, Staff Writers</h3>
+          <h3 class="byline pb-4"><i>Jun 4, 2020</i></h3>
+          <figure>
+            <img class="img-fluid" src="images/vigil1.jpg" alt="Candles, flowers and photos at the altar">
+            <figcaption class="figure-caption">A vigil was held on June 3 in honor of George Floyd and other lives lost from the black community. Attendees grieved before an altar made of flowers, candles and photos of victims.
+            <br> 
+            <cite>Laura San Juan / Alligator Staff</cite></figcaption>
+          </figure>
+          <p>Jamee Johnson. Sandra Bland. Nina Pop. Tony McDade. George Floyd. Eric Garner. Ahmaud Arbery. Trayvon Martin. Breonna Taylor. Robert Dentmond. David McAtee. Layleen Polanco. Walter Scott.</p>
+          <p>Their names and faces lined a makeshift altar, filled with flowers and flames atop white wax candles. Outside Heavener Hall on the corner of University Avenue and 13th Street Wednesday night, more than 400 people attended a vigil in honor of those lost from the black community.</p>
+          <p>The energy of the evening was sustained by the crowd’s cries for change and demands for a future with less division.</p>
+          <p>Cars driving past the scene honked their horns in support, some with windows declaring statements in white chalk paint—“black lives matter,” “say their names.”</p>
+          <p>Catherine Jean, a 38-year-old member of Guerrilla Medics, an organization that provides medical support for protests and marches, said that nearly 100 percent of the crowd wore face masks. She said she was grateful that people followed COVID-19 precautions.</p>
+          <p>Volunteers wearing facial coverage and gloves distributed water, masks, candles and flowers to the crowd filling the street corner.</p>
+          <p>Some entered the vigil with large shopping bags of additional water and candles, asking where to drop off donations. The community stood together in wait.</p>
+          <p>Rain began to drizzle down on the crowd around 7:30 p.m., the announced start time. As those in attendance shielded themselves from the droplets, a voice shouted, “Don’t light your candles yet, we’ll be here rain or shine!”</p>
+          <p>Shortly after the vigil began, members and friends of the Goddsville Dream Defenders spoke to the crowd about the exploitation of black lives they said the country’s institutions were founded upon. They also spoke about the unlevel playing field that is a consequence of this system.</p>
+          <p>Brandon McKay, a 20-year-old UF biotechnology junior, shared a poem he wrote earlier that day.</p>
+          <p>“Lynching doesn’t always happen with a rope,” he recited. “Sometimes it happens with a knee.”</p>
+          <p>Kiara Laurent, a 21-year-old UF criminology and sociology senior, said addressing poverty and food insecurity is also important in the fight for equality. She stood and spoke to the crowd in a colorful backpack that contrasted her dark “Dream Defenders” shirt.</p>
+          <p>“Black Lives Matter doesn’t end with the end of police brutality,” she said. “It does not start there, and it does not end there.”</p>
+          <p>The Black Lives Matter movement is more than just a hashtag, she said. It's her life. A wave of snaps followed.</p>
+          <figure>
+            <img class="img-fluid" src="images/vigil2.jpg" alt="People stand at the vigil">
+            <figcaption class="figure-caption">The nonprofit organization Dream Defenders, organized the vigil held on Wednesday evening. Volunteers provided masks, flowers and candles for everyone that came to pay their respects.
+            <br> 
+            <cite>Laura San Juan / Alligator Staff</cite></figcaption>
+          </figure>
+          <p>Laurent also discussed how African Americans are underrepresented in UF’s faculty, student body and curriculum.</p>
+          <p>“The African American studies department is small,” she said. “My home is bigger, and I live in an apartment.”</p>
+          <p>The family of Jamee Johnson was present at the vigil. Jamee was 22 when he was shot and killed by officers of Jacksonville Police Department in December 2019 after being stopped for a seatbelt violation.</p>
+          <p>Jamee’s father, Harvey, spoke to the crowd through a megaphone. He grieved with his audience for the loss of his son over the $35 <a href="https://www.firstcoastnews.com/article/news/crime/family-of-man-killed-by-jacksonville-deputy-during-traffic-stop-holding-news-conference/77-f32dd2da-c300-4496-bde6-cec2220a58df" target="_blank">violation.</a></p>
+          <p>The speakers finished, and silence followed. The crowd stood still for eight minutes—one for each minute former Minneapolis police officer Derek Chauvin pressed his knee against Floyd’s neck.</p>
+          <p>The corner quickly quieted, until the sound of nearby traffic was all that was left.</p>
+          <p>Hands rested on neighboring slumped shoulders. The wet ground grew damper still, as rain mixed with tears. Friends embraced each other, holding tightly.</p>
+          <p>The stale humidity, smoky incense and fragrant candles mixed to make the air smell like an old, packed church house with failing air conditioning on an Easter Sunday.</p>
+          <p>Some stared into the small but bright flame of their candle. Some held a strong fist in the air, and others bowed their heads in prayer. One man held a tight grip on a rose high above his head for eight minutes.</p>
+          <p>Children sat by their parents’ feet and silently played with the grass between their fingers.</p>
+          <p>An organizer then called for the crowd to chant, “I believe that we will win.” Within minutes, the crowd drowned out the echoing car horns with claps, chants and cheers.</p>
+          <p>Ken Hunt, a 20-year-old Santa Fe general studies freshman, felt nervous to come to the vigil after seeing incidents of violence break out at similar events on the news and social media. Seeing the peaceful and respectful crowd made him feel happy to attend, he said.</p>
+          <p>Hunt said seeing everyone singing and dancing together in unity reminded him of why he was there—for the people.</p>
+          <p>After the chant, vigil organizers instructed attendees to walk toward the altar to leave flowers and candles beneath the names of those they came to honor. Attendees slowly approached the memorial to lay down their respective tokens of grief.</p>
+          <figure>
+            <img class="img-fluid" src="images/vigil3.jpg" alt="Candles at the vigil">
+            <figcaption class="figure-caption">As the vigil came to a close and the crowd dispersed, the remaining attendees were able to see the shrine up close.
+            <br> 
+            <cite>Laura San Juan / Alligator Staff</cite></figcaption>
+          </figure>
+          <p>While rain got heavier, the line of people waiting to attend the altar got longer. It stretched under the Bob Brockman Gateway and split between the sidewalks on University Avenue and 13th Street. One by one, people approached to pay their respects.</p>
+          <p>By then, the sunlight was gone. But the crowd saw through the shadows with the help of two streetlamps and the collective light from hundreds of candles.</p>
+          <p>As the procession continued, the crowd sang “This Little Light of Mine,” “Lean on Me,” and “Stand by Me.” The rain continued, but the crowd stayed.</p>
+          <p>After the last person placed their flower, a vigil organizer thanked the crowd for coming before telling them: stand for black lives every day. In response, the crowd’s protruding fists and bellowing cries rose into the air and were carried into the night.</p>
+          <p>The crowd dwindled to about 40 people by 9:15 p.m.</p>
+          <p>Phanesia Pharel, a 20-year-old Barnard College urban studies student, reflected during the moment of silence on how she lives her life as a young black woman in America. She said she worries about being in the wrong place at the wrong time and becoming another victim among countless others.</p>
+          <p>“I have to come to terms with the fact that, right now, death is out of my control and any day can be my last day from this point on,” she said.</p>
+          <p>The vigil concluded with synchronous singing voices.</p>
+          <p>“Freedom, my friend, you do not walk alone,” the crowd harmonized. “We will walk with you and sing your spirit home.”</p>
+          <p>Footsteps receded from the shrine atop brick and concrete as people got ready to go home. Petals were left behind on the wet ground, and flames persisted against the rainfall.</p>
+          <p><i>This story has been updated to reflect the correct spelling of EMT Catherine Jean's name. The Alligator originally reported differently.</i></p>
+          <p><i>Contact Tristan, Natalia and Ariana at twood@alligator.org, ngalicza@alligator.org and aaspuru@alligator.org. Follow them on Twitter @TristanDWood, @GaliczaNatalia and @Arianaluzzz.</i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="ShandsText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">UF Health Shands Hospital employees kneel in silence for George Floyd</h2>
+          <h3 class="byline pt-4">By Kaelyn Cassidy, Staff Writer</h3>
+          <h3 class="byline pb-4"><i>Jun 5, 2020</i></h3>
+          <figure>
+            <img class="img-fluid" src="images/shands1.jpg" alt="UF Health faculty, staff and students kneel">
+            <figcaption class="figure-caption">More than one hundred UF Health faculty, staff and students gathered in front of the College of Nursing in remembrance of George Floyd on June 5. “I was honored to be among so many people that attended today’s fight for black lives and I’m honored to be apart of this crowd,” said Dr. Runi Foster, 57, a pulmonologist at the University and the VA Medical Center.
+            <br> 
+            <cite>Laura San Juan / Alligator Staff</cite></figcaption>
+          </figure>
+          <p>A crowd of more than 100 healthcare workers knelt on the pavement in remembrance of George Floyd. For 10 minutes, only the sound of nearby cars and soft weeping settled over the courtyard. A light sprinkle fell.</p>
+          <p>Michelle McCraw, 24, and Brittny Randolph, 30, took a knee beside one another outside of the UF College of Nursing. Together, they held a cardboard sign bearing the hashtag “#WhiteCoatsForBlackLives,” a grassroots movement began <a href="https://whitecoats4blacklives.org/about/" target="_blank">six years</a> ago by black medical students to expose structural racism in medicine.</p>
+          <p>The crowd wore masks to prevent the spread of COVID-19, and no patient care was interrupted, said Adrian Tyndall, the interim dean for the College of Medicine.</p>
+          <p>Medical personnel at Johns Hopkins Hospital, Boston Medical Center, Emory University Hospital Midtown and more all demonstrated at the same time across the country. At 1 p.m. Eastern Standard Time, they knelt.</p>
+          <p>McCraw and Randolph, friends and fourth-year UF medical students, held their outermost fists in the air. As the minutes crept by, their arms began to tire. They shook out their muscles, and switched arms when it got too painful.</p>
+          <figure class="text-center">
+            <img class="img-fluid" src="images/shands2.jpg" alt="Medical students kneel with fists in air">
+            <figcaption class="figure-caption text-left">Brittny Randolph, 30, (left), and Michelle McCraw, 24, (right) are both 4th-year medical students at UF. They knelt in silence with fists in the air and encouraged others in the healthcare community to share #WhiteCoatsforBlackLives.
+            <br> 
+            <cite>Laura San Juan / Alligator Staff</cite></figcaption>
+          </figure>
+          <p>Ten minutes is a long time.</p>
+          <p>Almost unconsciously, McCraw said, the two leaned their fists together. Together, they reflected, cried and literally supported each other until the 10 minutes were up. Afterward, they grabbed one another in an embrace.</p>
+          <p>“I think in that moment our fists touched, I also felt like it was very profound,” Randolph said through tears. “I felt we, as black people– we cannot do this on our own. And the burden and responsibility to bring about change cannot, we cannot, it cannot just be ours to bear.”</p>
+          <p>Black people have been <a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/racial-ethnic-minorities.html" target="_blank">disproportionately impacted by COVID-19</a> and have historically received <a href="https://www.nytimes.com/2020/01/13/upshot/race-and-medicine-the-harm-that-comes-from-mistrust.html" target="_blank">unequal medical treatment.</a> As a future physician, Randolph said she feels an even greater sense of responsibility to understand patients’ experiences with oppression and how that can take a toll on their health.</p>
+          <p>“We have to do a better job at educating the doctors that we’re producing on health disparities, racial inequity and creating culturally competent physicians,” she said.</p>
+          <p>Solving those problems won’t happen tomorrow, Tyndall said. He said eliminating those inequities is going to require understanding the underlying social fabric that contributes to them.</p>
+          <p>He said he was incredibly touched by how many people showed up to kneel. The event had been organized only the night before.</p>
+          <p>“I think the kneeling part, while we may not have necessarily understood the significance of it, is a very long time to snuff out a life,” Tyndall said. “What was captured in such excruciating detail on a camera is what I looked at as a disregard for human life.”</p>
+          <p>Alex Wood is a resident at UF Health Shands Hospital who just finished his first year of training in internal medicine. While he loves his colleagues, he said he doesn’t think they are representative of the patients they serve.</p>
+          <p>“We are at Shands Hospital, formerly known as Alachua County General, and the safety net hospital for our county, which has a massive African American population, a massive black population,” he said. “But if you look at the doctors that serve them, we don’t look a thing alike.”</p>
+          <p>Structural racism has largely prevented black students from occupying healthcare positions at the same rate as white students, Wood said.</p>
+          <p>“Medicine is full of a ton of very smart, very well-intentioned, very driven individuals that work their ass off every day to help people,” he said. “But they like to pretend that their work is apolitical, because that’s easy, that’s comfortable. There’s already so much on our plate.”</p>
+          <p>For Randolph, these last few weeks have been traumatizing. She said that every time she scrolls through apps on her phone, she sees people that look like her and those she loves brutalized. These are things that black people are constantly exposed to, she said.</p>
+          <p>Still, she chooses to remain hopeful. She knows that good exists, and said she has found an ally in McCraw.</p>
+          <p>“There aren’t really any words to fully encompass the importance or the seriousness of people’s lives,” McCraw said. “But the reason I’m here today is because I know that my black friends matter, my black patients matter, my black colleagues matter, my black brothers and sisters in Christ matter, and that’s not something I take lightly.”</p>
+          <p><i>Laura San Juan contributed to this report.</i></p>
+          <p><i>Contact Kaelyn at kcassidy@alligator.org. Follow her on Twitter @kaelyn_cassidy.</i></p>
+          <p><i>Correction: This article has been updated to attribute the final quote to Michelle McCraw and to clarify that #WhiteCoatsForBlackLives began six years ago.</i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="MuralText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">UF alumnus honors Breonna Taylor in Gainesville mural art project</h2>
+          <h3 class="byline pt-4">By Anna Wilder, Staff Writer</h3>
+          <h3 class="byline pb-4"><i>Jun 6, 2020</i></h3>
+          <figure class="text-center">
+            <img class="vertical img-fluid" src="images/mural1.jpg" alt="Writer paints mural">
+            <figcaption class="figure-caption text-left">Artist Renda Writer painted a mural in honor of Breonna Taylor Friday as part of the Fifth Avenue Wall at Springhill project.
+            <br> 
+            <cite>Courtesy to The Alligator</cite></figcaption>
+          </figure>
+          <p>Love wrapped around her name. The yellow and white painted letters were scattered across the wall, surrounding the purple outline of a heart. Inside, love was written sideways, upside down, backwards and across, encompassing her name painted in white: Breonna Taylor.</p>
+          <p>Breonna Taylor would have turned 27 years old Friday. But she was <a href="https://www.nytimes.com/article/breonna-taylor-police.html" target="_blank">killed on March 13,</a> when police broke down the door to her apartment in an attempted drug sting and shot her eight times. UF alumnus Renda Writer honored Taylor’s memory Friday by including her name in a mural for the Fifth Avenue Wall at Springhill project put on by the Cultural Affairs Department of Gainesville and the Urban Revitalization Project.</p>
+          <p>The Urban Revitalization Project is a local nonprofit organization that works on seeking out parts of the community to renovate with art. Its Fifth Avenue mural project at Springhill includes 11 muralists from different backgrounds doing diverse work focusing on religious pieces and other messages.</p>
+          <figure>
+            <img class="img-fluid" src="images/mural2.jpg" alt="Mural for Breonna Taylor">
+            <figcaption class="figure-caption">The Fifth Avenue mural project at Springhill includes 11 muralists from different backgrounds doing diverse work, like a piece centered on Breonna Taylor, who died March 13 at the hands of police.
+            <br>
+            <cite>Courtesy to The Alligator</cite></figcaption>
+          </figure>
+          <p>The Cultural Affairs Department in Gainesville has other projects like 352walls, with the mission to beautify the urban landscape and boost community pride through art according to the 352walls project coordinator and consultant for the City of Gainesville Cultural Affairs Department, Raquel Vallejo, who was also at the Fifth Avenue Project at Springfield.</p>
+          <p>Vallejo said the mural project started about 10 days ago and will probably be done by next week.</p>
+          <p>According to Vallejo, the muralists are spray painting a 220-foot wall divided into 11 spaces on Southeast Fifth Avenue and the corner of Southeast Sixth Street. Only two muralists paint per day to keep social distancing in place.</p>
+          <p>Writer applied to be a part of the Fifth Avenue project at Springhill and wasn’t originally planning on doing a mural for Taylor. However, he asked organizers if it would be okay if he put Breonna’s name in the middle of his mural as a tribute for her birthday, and they said yes.</p>
+          <p>Writer is a 41-year-old traveling mural artist who uses words instead of pictures in his mural art to convey his message and graduated from UF in 2000. His mission is to spread the message of world peace, he said, and he has done 75 murals in eight different countries that center on world peace. Writer did a mural in honor of George Floyd in Atlanta, Georgia, on June 3 and 4.</p>
+          <p>“I feel like it's my duty, you know, almost an obligation to use my art now,” Writer said. “I think the cause right now is pretty obvious, and since today is Breonna Taylor’s birthday, I figured this was perfect, like a sign I was supposed to be doing this.”</p>
+          <p>Vallejo said the Urban Revitalization project was originally supposed to start in March, and it was supposed to be a festival. Vallejo said it was an opportunity for 11 artists to come together and build community, but this didn’t happen because of COVID-19 concerns.</p>
+          <p>“It’s reflective of the times, and it just so happened that the timing was just perfect for these artists to come together,” Vallejo said.</p>
+          <p>Vallejo added that there are very few African American muralists in the profession and that the project is meant to recognize and uplift their work.</p>
+          <p>One of the black mural artists working on the Springhill project, 20-year-old Myqueal Lewis, painted “Staring Myqual Lewis.” The mural is filled with vibrant colors in sectioned pieces capturing phrases like “dream on.” Most significantly, four black men are painted across the wall, one being Lewis with no eyes.</p>
+          <figure>
+            <img class="img-fluid" src="images/mural3.jpg" alt="Mural painted by Lewis">
+            <figcaption class="figure-caption">One of the black mural artists working on the Springhill project, 20-year-old Myqueal Lewis, painted “Staring Myqual Lewis.”
+            <br> 
+            <cite>Courtesy to The Alligator</cite></figcaption>
+          </figure>
+          <p>Lewis said he painted himself this way because he wants the people he loves and admires to be the eyes for him. Surrounding the painting of Lewis is Spike Lee, Lewis’ favorite director, Casey Jones II, his high school best friend and J.Cole, his favorite rapper.</p>
+          <p>Lewis is a student at Florida A&M University and a part time artist and videographer. He first heard about the Urban Revitalization project on social media. He applied with no experience doing murals, but was accepted as one of the 11 muralists.</p>
+          <p>“I find it very unique and almost crazy to be able to find the ability to come out here and paint and to be able to continue to pump inspiration through this,” Lewis said. “To also be inspired by my friends, who are African American and my friends who are white, who are on the side of Black Lives Matter, is very crazy, yet unique.”</p>
+          <p><i>This story has been updated to reflect the correct spelling of Raquel Vallejo's name. The Alligator originally reported differently.</i></p>
+          <p><i>Contact Anna at awilder@alligator.org. Follow her on Twitter at @anna_wilderr. </i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="AcademiaText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">#ShutDownAcademia: UF faculty and staff take time off to reflect on racism in America</h2>
+          <h3 class="byline pt-4">By Nicole Rodriguez, Staff Writer</h3>
+          <h3 class="byline pb-4"><i>Jun 10, 2020</i></h3>
+          <figure class="text-center">
+            <img class="img-fluid" src="images/academia.png" alt="Poster for #ShutDownAcademia">
+            <figcaption class="figure-caption text-left">
+              <cite>Courtesy to The Alligator</cite>
+            </figcaption>
+          </figure>
+          <p>UF President Kent Fuchs <a href="http://statements.ufl.edu/statements/2020/june/faculty-staff-encouraged-to-take-day-for-reflection-and-education.html" target="_blank">announced</a> a pause in day-to-day work Tuesday to encourage faculty and staff to reflect on racism in America following the death of George Floyd.</p>
+          <p>Fuchs asked for June 10 to be a day for employees to consider their actions and how they can better educate themselves on racism, according to the statement.</p>
+          <p>The day is part of a nationwide movement called #ShutDownSTEM and #ShutDownAcademia, where scientists, researchers and academics halt “business as usual” to act against racism and advocate for the needs of black scholars and STEM professionals, according to the <a href="https://www.shutdownstem.com/" target="_blank">campaign’s website.</a></p>
+          <p>In the statement, Fuchs also encouraged faculty and staff to participate in #Academics4BlackLives, a professional initiative from June 19 through 25 started by <a href="https://www.academics4blacklives.com/about" target="_blank">Academics for Black Survival and Wellness.</a></p>
+          <p>Della Mosley, an assistant professor in the UF psychology department, launched the initiative with her doctoral advisee, Pearis Bellamy. The two worked closely to organize a week centered on providing resources for black people and anti-racist education for people who do not identify as black, Mosley wrote in an email to The Alligator.</p>
+          <p>She said President Fuchs’ decision to bring attention to the program was great, as it can give faculty and staff the chance to better understand the racism they are witnessing. Participants will go through training to gain practical skills and develop personal plans to become the allies that their black colleagues need, she said.</p>
+          <p>Mosley said she can’t take this time to reflect as she is actively involved in the fight for black lives. She is working hard in the midst of grief and anger to make sure the week is as impactful as possible, she said.</p>
+          <p>“People have to learn what anti-black racism is,” Mosley said. ”How to recognize it in and around them, and how to dismantle it if they want black people to survive and be well.”</p>
+          <p>UF spokesperson Steve Orlando said the pause reaffirms the university’s commitment to having difficult conversations and creating a community where African Americans can have full access to the resources and opportunities the university provides.</p>
+          <p>“We can and will do better at providing researched educational and professional development opportunities that augment and enhance what offices and colleges on campus have been doing to develop anti-racism workshops, implicit bias training and professional development on the topic,” Orlando wrote in an email.</p>
+          <p>Michelle Cardel, an assistant professor in the UF College of Medicine, said she took the day off to read “Stamped From the Beginning” by Ibram X. Kendi, a former faculty member in the department of history at UF. Kendi’s book discusses the history of racism in America.</p>
+          <p>Cardel said she appreciates the university’s decision to give faculty and staff a day dedicated to learning and growing, as it has allowed her to evaluate her role as a white woman in combating racism.</p>
+          <p>“We were supposed to have a faculty meeting today, and my department chair canceled it in order for us to utilize that time for our own growth and learning,” Cardel said. “So I think it shows dedication from the university.”</p>
+          <p>While Cardel said it’s important for the university to provide that time to reflect, she said she hopes UF’s next step is to implement actual anti-racist policies.</p>
+          <p>“We very much need anti-racist policies put in place,” Cardel said. “But I do think it's an important first step, getting this recognition from the leadership. Awareness is kind of the first step for moving in the right direction.”</p>
+          <p><i>Contact Nicole at nrodriguez@alligator.org. Follow her on Twitter @_nrodriguez99.</i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="ProtectText">
+      <div class="row justify-content-center">
+        <div class="col-12 py-2">
+          <h2 class="text-center display-5 pt-4">“Who are you protecting?”: Gainesville’s past spotlighted</h2>
+          <h3 class="byline text-center pt-4">By Kaelyn Cassidy and Tristan Wood, Staff Writers</h3>
+          <h3 class="byline text-center pb-4"><i>Jun 14, 2020</i></h3>
+          <figure>
+            <img class="img-fluid" src="images/protect1.jpg">
+            <figcaption class="figure-caption text-left">Protesters blocked sidewalks and intersections and learned how decades of gentrification and inequality impact the experience of Black people in Gainesville today.
+              <br>
+              <cite>Photos by Laura San Juan <br> Graphic by Kate McNamara</cite>
+            </figcaption>
+          </figure>
+        </div> <!-- close column -->
+      </div> <!-- close row -->
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <p>A family of three stood together in a tight circle. Trenita White held an umbrella while her daughters, Joanna and Juanita, passed back and forth a cardboard sign that read “Black Lives Matter.” It ended at Joanna.</p>
+          <p>As minutes passed, the women quieted. They peered into the center of the crowd where a group of organizers prepared to speak.</p>
+          <p>“I want to march already,” said the younger sister, Juanita, an 18-year-old UF business management freshman.</p>
+          <p>Soon, they would.</p>
+          <p>Almost 1,500 people marched Saturday evening in protest of police violence and systemic racism. Protesters blocked sidewalks and intersections and listened as organizers illustrated how decades of gentrification and inequality impact the experience of Black people in Gainesville today.</p>
+          <p>The protest began in front of the O’Connell Center.</p>
+          <figure>
+            <img class="img-fluid" src="images/protect2.jpg">
+            <figcaption class="figure-caption text-left">Starting at the O’Connell Center, two of GoDDsville Dream Defenders’ leading organizers explain that Saturday’s protest will educate the Gainesville community on the city’s racist past.
+              <br>
+              <cite>Laura San Juan / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <h4 class="text-center">O’Connell Center, 6:10 p.m.</h4>
+          <p>“Stephen C. O’Connell was a racist,” said Alexandra St Tellien, a member of the GoDDsville Dream Defenders. O’Connell was the president of UF from 1967 to 1973, too.</p>
+          <p>St Tellien told the story of <a href="http://web.uflib.ufl.edu/spec/exhibits/altufrights.htm" target="_blank">Black Thursday</a>, when members of the Black Student Union held a sit-in at the UF president’s office on April 15, 1971, to demand a Black cultural center on campus and other programs to improve the lives of Black UF students.</p>
+          <p>Sixty-six protesters were arrested, 60 of whom were put on academic probation. O’Connell denied the arrested students amnesty, saying that doing so “would be admitting that the sit-in in my office was proper conduct now and in the future,” according to an article in Alternative UF, a 2009 exhibition created by undergraduate students focusing on campus activism at UF.</p>
+          <p>“UF speaks about diversity, but having these monuments is kind of contradicting themselves,” Juanita said.</p>
+          <p>She grabbed her sister’s shirt sleeve and pulled as the crowd made its way to the next stop.</p>
+          <figure>
+            <img class="img-fluid" src="images/protect3.jpg">
+            <figcaption class="figure-caption text-left">“I am happy about the amount of people that are out here still fighting and should just keep that momentum going to actually make change,” protester Jersa (left), a 21-year-old UF psychology junior, said. Kayla Zavac (right), 22, said that she just graduated from UF and in all her time here, this is the first time she has seen real movement from the community taking place for change.
+              <br>
+              <cite>Laura San Juan / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <h4 class="text-center">University Avenue and 13th Street, 6:50 p.m.</h4>
+          <p>In the center of the intersection, Wallace Mazon, a 25-year-old UF alumnus and Dream Defenders member, asked protesters to kneel for 9 minutes of silence—about the amount of time former Minneapolis police officer Derek Chauvin knelt on George Floyd’s neck.</p>
+          <p>During the silence, three young Black men wearing hoodies lay face down on the pavement. They held their hands together behind their backs, simulating being constrained by handcuffs.</p>
+          <p>All three chanted, “I can't breathe,” at each minute interval.</p>
+          <p>Nine minutes later, the crowd got to their feet. Juanita and Joanna helped their mother off the asphalt and followed the procession north down 13th Street. The chants continued.</p>
+          <figure class="text-center">
+            <img class="vertical img-fluid" src="images/protect4.jpg">
+            <figcaption class="figure-caption text-left">Organizers explain the gentrification of the Pleasant Street area at the third stop of the protest at A. Quinn Jones Museum and Cultural Center. Danielle Chanzes, a volunteer for the Gainesville Alliance for Equitable Development, said that after Seminary Lane apartments were torn down in 2009, hundreds of Black residents were promised affordable housing as a replacement, but no progress had been made since then.
+              <br>
+              <cite>Laura San Juan / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <h4 class="text-center">A. Quinn Jones Museum and Cultural Center, 7:20 p.m.</h4>
+          <p>The Whites dodged anthills and swatted bugs from their ankles as they arrived at the march’s third stop. They stood on the grass in front of the museum to listen.</p>
+          <p>Pleasant Street, which includes the area between Northwest Second and Eighth Avenue and Northwest First and Sixth Street, was first developed during reconstruction after the Civil War by families of freed slaves.</p>
+          <p>The area is being impacted by gentrification and outside developers, said Danielle Chanzes, a volunteer for the Gainesville Alliance for Equitable Development.</p>
+          <p>She told the story of Seminary Lane apartments, a former complex on Pleasant Street that was demolished in 2009. Hundreds of Black residents were promised that affordable housing would take its place—it didn’t. Nothing has replaced it in the 11 years since it was torn down, she said.</p>
+          <p>Juanita and Joanna’s mother, Trenita, nodded during the speech.</p>
+          <p>“I’ve been in Gainesville since 1981, so I can see the difference,” she said. “It’s not the same.”</p>
+          <p>After Chanzes finished, Mazon rallied the crowd to continue.</p>
+          <p>“For those of you who know this neighborhood, you know where we are going next,” he said.</p>
+          <figure>
+            <img class="img-fluid" src="images/protect5.jpg">
+            <figcaption class="figure-caption text-left">GoDDsville Dream Defenders use the stop at the Gainesville Police Department to announce a list of demands that the organization will present to local government officials. Hundreds of fists rise into the air as the crowd chants “No justice, no peace.”
+              <br>
+              <cite>Laura San Juan / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <h4 class="text-center">Gainesville Police Department, 8 p.m.</h4>
+          <p>“Who are you protecting? Who are you protecting?”</p>
+          <p>The words echoed down Northwest Sixth Street as protesters neared the Gainesville Police Department on 545 NW Eighth Ave.</p>
+          <p>There, Mazon announced a list of demands that the GoDDsville Dream Defenders will present to local government officials. Joanna and her sister cheered after each.</p>
+          <p>Require anti-racism accreditation for Gainesville city and county commissioners, he said. Divert police funding to community-based programs like mental health clinics. Remove or rename all buildings, statues or monuments in the county named after Confederates, <a href="https://www.alligator.org/news/local/gator-naacp-calls-for-renaming-of-j-j-finley-elementary-school/article_f402ba76-aa78-11ea-a8d6-f3f299820d24.html" target="_blank">like J.J. Finley Elementary School</a>. Teach more Black history in schools.</p>
+          <p>Mazon added that demonstrations will be organized outside city and county commissioner’s offices and homes until changes are made. He asked the protestors to raise their hands in the air, make a fist and repeat after him: “No justice, no peace. There’s no such thing as a peaceful uprising. We are not violent. Peace will not bring forth life and liberation for all.”</p>
+          <figure>
+            <img class="img-fluid" src="images/protect6.jpg">
+            <figcaption class="figure-caption text-left">Protesters sit along the street in front of the Alachua County Courthouse to listen to the next speaker. “This is a beautiful display of both solidarity, but also the strength of Black people in Gainesville,” a seated protester said.
+              <br>
+              <cite>Laura San Juan / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <h4 class="text-center">Alachua County Courthouse, 8:45 p.m.</h4>
+          <p>On their way to the Alachua County Courthouse, the protesters were met with jeers.</p>
+          <p>One man yelled, “I hate you!”</p>
+          <p>Jhody Polk, the founder of the Legal Empowerment and Advocacy Hub, spoke from the steps of the courthouse about corruption and inequality within the justice system and her fears as the mother of a Black son.</p>
+          <p>“Every time my son goes outside, I can’t breathe,” she said.</p>
+          <p>Joanna’s friend, Kiara Cubo, 22, said she didn’t know much about the court systems. Instead she relies on Joanna, who is studying to become a lawyer, to keep her informed on what’s important.</p>
+          <p>“It’ll be nice if there’s more representation in the court, such as for the Black community or other minorities, so that the rules that are made are beneficial for all people, not just one major group,” said Cubo.</p>
+          <figure>
+            <img class="img-fluid" src="images/protect7.jpg">
+            <figcaption class="figure-caption text-left">The protest ends at Porters Community, which is Gainesville’s second oldest Black community. Kaith, 24, a Dream Defenders member, raises a gloved fist in the air at the conclusion of the protest. “I am really impressed with the amount of people who have consistently been showing up,” Kaith said “This work is for everyone. Organizing is absolutely necessary, building relationships with our community is absolutely necessary.”
+              <br>
+              <cite>Laura San Juan / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <h4 class="text-center">Porters Community, 9:30 p.m.</h4>
+          <p>Late in the evening, the crowd thinned by almost half. A few counter-protesters joined to heckle, only to be booed by those who remained.</p>
+          <p>Porters Community is the second oldest Black community in Gainesville and the last stop for protesters.</p>
+          <p>Mazon told the crowd that the edges of the neighborhood are being bought and developed into student housing––displacing the families that have lived there since its 1884 founding. Peaceful protests are necessary to protect communities like Porters and Pleasant Street and their inhabitants, he added.</p>
+          <p>“We are on the right side of history, and don’t let anyone tell you otherwise,” Mazon said. “We are going to continue to be in these streets.”</p>
+          <p>Trenita and her daughters shifted their weight from one foot to another as the march drew to a close. It had been a long walk.</p>
+          <p>In a matter of minutes, the crowd dispersed. The sky was dark, and it had been raining. St Tellien stayed behind to chat with other organizers and make sure protesters had a way back.</p>
+          <p>“People are fed up with white supremacy, people are fed up with the injustice in our system,” she said. “We’re saying no more, and we want change.”</p>
+          <p><i>Laura San Juan contributed to this report.</i></p>
+          <p><i>Contact Kaelyn and Tristan at kcassidy@alligator.org and twood@alligator.org. Follow them at @kaelyn_cassidy and @TristanDWood.</i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="UnityText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">“Unity can change the game”: Students to march for Unity Week, Juneteenth</h2>
+          <h3 class="byline pt-4">By Nicole Rodriguez, Staff Writer</h3>
+          <h3 class="byline pb-4"><i>Jun 19, 2020</i></h3>
+          <figure class="text-center">
+            <img class="img-fluid" src="images/unity.jpg">
+            <figcaption class="figure-caption text-left"> Extra signs left by protestors June 3 as the crowd chants and waves to passing cars at the intersection of 13th Street and University Avenue during a protest against police brutality.
+              <br>
+              <cite>Sam Thomas</cite>
+            </figcaption>
+          </figure>
+          <p>In a time of constant division, unity can change the game.</p>
+          <p>That’s what Sarah Louis, a 20-year-old UF political science major, said. She and more than 100 others are expected to embody that unity at 11:30 a.m. Friday during a March for Freedom.</p>
+          <p>The Gator Chapter of NAACP organized the march as the final event of <a href="https://www.facebook.com/naacpatuf/photos/a.1048527861834648/3240533392634073" target="_blank">Unity Week</a>, a series of events that began on Monday to support students protesting racism in America. Friday’s march from A. Quinn Jones Center to J.J. Finley Elementary School will commemorate Juneteenth, a holiday that commemorates the end of slavery in the U.S.</p>
+          <p>As the co-vice president of the Gator Chapter of NAACP, Louis helped organize the week. The UF Black Leadership Council, a group of leaders from Black organizations at UF including the Gator Chapter of NAACP, put it together.</p>
+          <p>The chapter hosted voter registration opportunities throughout the week, as well as a virtual town hall with UF administrators. The events aimed to bring students together and empower them to speak out in their interest, though ultimately, no administrators participated in the town hall.</p>
+          <p>In the past, UF’s NAACP chapter put together a barbecue to celebrate Juneteenth, Louis said. This year, they wanted to use the occasion as a way to remind students that they are not alone and to encourage them to take action, Louis said.</p>
+          <p>“I think having Unity Week, no matter what community you are in, shows that solidarity, and how we have to work collectively to change anything that we deem unfit,” Louis said.</p>
+          <p>Mackintosh Joachim, the UF NAACP chapter’s president, said Unity Week can provide a sense of community for students at a time where COVID-19 safety measures have torn people apart.</p>
+          <p>“Everyone feels like they’re isolated with their own emotions,” Joachim said. “So Unity Week essentially is trying to tell people, ‘You're not alone.’”</p>
+          <p>While the march will allow students to stand together, Joachim said it will also make university administration more aware of student concerns about racism on campus.</p>
+          <p>Students have recently voiced their opinions on these issues at UF. <a href="https://www.change.org/p/university-of-florida-change-the-reitz-union-to-the-virgil-hawkins-union?fbclid=IwAR1bXmmHKOqgmx1cpOlG1QiFrpceUO_-tIANtLAwvv0yW5LRZDkdf9B5crQ" target="_blank">Several petitions</a> have surfaced, some demanding the school remove the names of racist figureheads from locations on campus.</p>
+          <p>UF President Kent Fuchs <a href="https://www.alligator.org/news/campus/gator-bait-removal-mandatory-bias-training-uf-s-plan-to-address-racism/article_d7111152-b189-11ea-a35e-974557aefbfd.html" target="_blank">announced a three-part plan</a> in an email to students Thursday outlining how the university will address racism and inequity on campus. He said the university will implement mandatory training on racism, inclusion and bias. They will also be reviewing historical monuments or names and removing those “that UF can control that celebrate the Confederacy or its leaders” and ending the university’s use of prison and jail inmate labor.</p>
+          <p>Louis said all students should participate in Unity Week to share how they feel and effect positive change.</p>
+          <p>“It doesn't matter your background, if you're a marginalized community or not,” Louis said. “If we band together as students and support one another, I think it will show students that we really can create change.”</p>
+          <p><i>Meghan McGlone contributed to this report.</i></p>
+          <p><i>Contact Nicole at nrodriguez@alligator.org. Follow her on Twitter @_nrodriguez99.</i></p>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="JuneteenthText">
+      <div class="row justify-content-center">
+        <h2 class="text-center display-5 py-4">Juneteenth Liberation Rally</h2>
+      </div> <!-- end row -->
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-07.JPG">
+            <figcaption class="figure-caption text-left py-2">Before relocating to outside the Alachua County Jail, the Juneteenth Liberation Rally began at the MLK Center. Attendees hold a banner from the Gainesville Alliance for Equitable Development reading, “Black communities matter.”
+              <br>
+              <cite>Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-01.jpg">
+            <figcaption class="figure-caption text-left py-2">Tyrone Whetstone addresses the crowd of protestors Friday at the Alachua County Jail during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-03.jpg">
+            <figcaption class="figure-caption text-left py-2">Christian Whetstone, 8, and his 10-year-old brother, Kobe, listen as their father, Tyrone Whetstone, speaks Friday at the Alachua County Jail during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+      </div> <!-- end row -->
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-02.jpg">
+            <figcaption class="figure-caption text-left py-2">Ella Whetstone speaks to the crowd in front of the Martin Luther King Jr. Multipurpose Center Friday during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity. Whetstone has three grandchildren in Alachua County Jail.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-10.jpg">
+            <figcaption class="figure-caption text-left py-2"> Danielle Chanzes hugs Ella Whetstone Friday at the Martin Luther King Jr. Multipurpose Center during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-06.JPG">
+            <figcaption class="figure-caption text-left py-2">Danielle Chanzes, community organizer, speaks about her partner who is currently awaiting trial in the Alachua County Jail and is not eligible for bail.
+              <br>
+              <cite class="pt-1">Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+      </div> <!-- end row -->
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-03.JPG">
+            <figcaption class="figure-caption text-left py-2">Family members stand with photos of their incarcerated loved ones. Many are members of LEAH, Legal Empowerment & Advocacy Hub, which hosts weekly meeting for families with incarcerated members.
+              <br>
+              <cite class="pt-1">Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-05.jpg">
+            <figcaption class="figure-caption text-left py-2">Frances Williams holds a photo of her son, Jeramy Williams, Friday at the Alachua County Jail during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity. Her son is serving 10 years in prison for shooting an intruder in his home.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-04.jpg">
+            <figcaption class="figure-caption text-left py-2">Danielle Chanzes (middle) helps a volunteer read off names of prisoners in Alachua County Jail while Niko-Segal-Wright, 29, holds an umbrella for her Friday during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+      </div> <!-- end row -->
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-01.jpg">
+            <figcaption class="figure-caption text-left py-2">Mother of an inmate emotionally speaks about the injuries her son has sustained while incarcerated.
+              <br>
+              <cite class="pt-1">Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-05.JPG">
+            <figcaption class="figure-caption text-left py-2">Florida Prisoner Solidarity, formerly Gainesville IWOC, gave out signs to attendees which read “End Prison Slavery” on one side and “We Support Prisoners On Strike” on the other. 
+              <br>
+              <cite class="pt-1">Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-09.jpg">
+            <figcaption class="figure-caption text-left py-2">Jhody Polk speaks to the crowd of protesters Friday at the Alachua County Jail during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+      </div> <!-- end row -->
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-04.JPG">
+            <figcaption class="figure-caption text-left py-2">Kiara Laurent, a 21-year-old UF criminology and sociology major and member of Dream Defenders, joins the crowd showing disapproval of the Alachua County Jail.
+              <br>
+              <cite class="pt-1">Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-EB-02.JPG">
+            <figcaption class="figure-caption text-left py-2">Community members gathered for the Juneteenth Liberation Rally hold a banner that reads, “End Prison Slavery.” They listen to a phone call from a current inmate in a Florida State prison speak about his experiences.
+              <br>
+              <cite class="pt-1">Eleanore Brown / Alligator Staff</cite>
+            </figcaption>
+        </div> <!-- end column -->
+        <div class=" col-md-12 col-lg-4">
+          <figure class="text-center">
+            <img class="img-fluid" src="images/Juneteenth-ST-06.jpg">
+            <figcaption class="figure-caption text-left py-2">Activists hold up banners Friday at the Martin Luther King Jr. Multipurpose Center during the Juneteenth Liberation Rally hosted by the Legal Empowerment and Advocacy Hub along with Florida Prisoner Solidarity.
+              <br>
+              <cite class="pt-1">Sam Thomas</cite>
+            </figcaption>
+        </div> <!-- end column -->
+      </div> <!-- end row -->
+    </div><!-- end container-->
+
+    <div class="container-fluid" id="EventsText">
+      <div class="row justify-content-center">
+        <div class=" col-md-12 col-lg-6">
+          <h2 class="text-center display-5 pt-4">Black Lives Matter Upcoming Events</h2>
+          <h3 class="byline text-center py-4"><i>Jun 17, 2020</i></h3>
+          <figure class="text-center">
+            <img class="img-fluid" src="images/protest7.PNG">
+            <figcaption class="figure-caption text-left">
+              <cite>Kate McNamara / Alligator Staff</cite>
+            </figcaption>
+          </figure>
+          <ul class="text-center py-2" style="list-style-type: none;">
+            <li class="py-2">
+              <h4><b>Resistance Block Party</b></h4>
+              <p>Date & Time: June 12, 6 p.m. Hosted by Dream Defenders</p>  
+              <p>Location: UF Levin college of law</p>
+            </li>
+            <li class="py-2">
+              <h4><b>BLM Shirts and Masks</b></h4>
+              <p>Date & Time: June 13, 2 p.m. till gone</p>
+              <p>Location: 319 SW 3rd Avenue</p>
+            </li>
+            <li class="py-2">
+              <h4><b>BLM March for Children</b></h4>
+              <p>Date & Time: June 13, 9 a.m. - TBD</p>
+              <p>Location: Depot Park</p>
+            </li>
+            <li class="py-2">
+              <h4><b>No Justice No Peace Protest</b></h4>
+              <p>Date & Time: June 13 6 p.m. - 9 p.m.</p>
+              <p>Location: TBD</p>
+            </li>
+            <li class="py-2">
+              <h4><b>First Aid for Activists</b></h4>
+              <p>Date & Time: June 15, 7 p.m. - 9:30 p.m. Hosted by Guerilla Medics</p> 
+              <p>Online event</p>
+            </li>
+            <li class="py-2">
+              <h4><b>Be Out Day</b></h4>
+              <p>Date & Time: Friday, June 19, 3p.m. - 7 p.m.</p>
+              <p>Location TBD</p>
+            </li>
+            <li class="py-2">
+              <h4><b>Juneteenth Liberation Rally</b></h4>
+              <p>Date & Time: Friday June 19, 4:30 p.m. - 7:30 p.m.</p>
+              <p>Location: MLK center</p>
+            </li>
+            <li class="py-2">
+              <h4><b>March for Our Freedom Cash Mob</b></h4> 
+              <p>Date & Time: June 20, 9 a.m. - 3 p.m.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- end container-->
+
+    <footer id="pageFooter">
+        <a href="https://www.alligator.org/"><img id="alligatorfoot" src="images/footer.jpg" alt="logo"></a>
+        <p class="credits pt-1">© Copyright 2020, <a href="https://www.alligator.org/">The Independent Florida Alligator</a></p>
+        <p id="artist" class="credits pt-1">Graphics by Kate McNamara</p>
+        <p id= "dev" class="credits py-1">Developed by Rosmery Izaguirre</p>
+    </footer>
+
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/toggle.js"></script>
+
+</body>
+</html>

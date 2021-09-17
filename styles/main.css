@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+} 
+html, body {
+  margin: 0;
+  padding: 0;
+} 
+body {
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.02rem;
+  background-color: #000000;
+  color: #fff;
+}
+#logo {
+  padding: 2rem;
+  max-width: 100%;
+  background-color: #f4f4f4;
+  display: block;
+}
+#alligator{
+  max-width: 40%;
+  height: auto;
+}
+.parallaxParent {
+  height: 100vh;
+  overflow: hidden;
+}
+.parallaxParent > * {
+  height: 125%;
+  position: relative;
+  top: -100%;
+}
+#parallax1 div{
+  background-image: url(images/header.PNG);
+  background-size: 100%;
+}
+#pageName{
+  font-family: 'Expletus Sans', cursive;
+  background-color: #000000;
+  color: #fff;
+  font-size: 5rem;;
+}
+nav{
+  background-color: #000000;
+}
+.dropdown-menu{
+  background-color: #000000;
+}
+.dropdown-menu a:link{
+  color: #999999;
+  text-decoration: none;
+}
+.dropdown-menu a:visited{
+   color: #999999;
+   text-decoration: none;
+}
+.dropdown-menu a:hover{
+   color: #000000;
+   text-decoration: none;
+   background-color: #fff;
+}
+.svgSub{
+  display: none;
+}
+blockquote{
+  font-family: 'Expletus Sans', cursive;
+}
+blockquote > p, footer{
+  font-size: 2rem;
+}
+h2{
+  padding: 0;
+  margin: 0;
+}
+.byline{
+  font-size: 1rem;
+}
+.vertical {
+  width: 60%;
+}
+#pageFooter{
+  padding: 2rem;
+  max-width: 100%;
+  height: 12rem;
+  background-color: #000000;
+  display: block;
+  text-align: left;
+}
+#alligatorfoot{
+    width: 20%;
+    height: auto;
+}
+.credits{
+    font-size: 1rem;
+}
+a:link{
+   color: #008c44; 
+   text-decoration: none;
+}
+a:visited{
+    color: #008c44;
+    text-decoration: none;
+}
+a:hover{
+    color: #008c44;
+    text-decoration: underline;
+}
+
+/* start media queries */
+@media screen and (max-width: 1425px){
+  .svg {
+    display: none;
+  }
+  .svgSub{
+    display: block;
+  }
+}
+@media screen and (max-width: 1400px){
+  #parallax1{
+    display: none;
+  }
+  blockquote > p{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1000px){
+  #pageName{
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 991px){
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  #alligatorfoot{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 767px){
+  #alligator{
+      max-width: 80%;
+  }
+  #pageName{
+    font-size: 2rem;
+  }
+  blockquote{
+    padding-bottom: 0;
+    padding-top: 4rem;
+  }
+  blockquote > p{
+    font-size: 1.5rem;
+  }
+  .vertical {
+    width: 90%;
+  }
+  .credits{
+      font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 550px){
+  #alligator{
+    max-width: 100%;
+  }
+  #alligatorfoot{
+    width: 80%;
+  }
+}
+
+/* scroll animations*/
+#quoteReveal1, #quoteReveal2, #quoteReveal3, 
+#quoteReveal4, #quoteReveal5, #quoteReveal6, 
+#quoteReveal7, #quoteReveal8, #quoteReveal9 {
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+     -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+       -o-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+}
+#quoteReveal1.visible, #quoteReveal2.visible, #quoteReveal3.visible, 
+#quoteReveal4.visible, #quoteReveal5.visible, #quoteReveal6.visible, 
+#quoteReveal7.visible, #quoteReveal8.visible, #quoteReveal9.visible {
+  opacity: 1;
+  -webkit-transform: none;
+     -moz-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+}
